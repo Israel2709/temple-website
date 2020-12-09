@@ -10,8 +10,7 @@ import {
     Nav,
     NavItem,
     NavLink,
-    Button,
-    NavbarText
+    Button
 } from 'reactstrap'
 
 import '../Home/style.css'
