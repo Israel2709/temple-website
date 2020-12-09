@@ -1,0 +1,58 @@
+.heading{
+    height:100vh;
+    background-image:url("../../assets/img/Background-hero.png");
+    background-size:cover;
+}
+
+.about{
+    //height:50vh;
+    background-image:linear-gradient(to right, #4DC8F3, #0C2239);
+}
+
+.statistic-item{
+    span{
+        font-size:2rem;
+        font-weight:bold;
+    }
+}
+
+div[class^="course-item"]{
+    width:33.333%;
+    &:after{
+        content:"";
+        padding-top:65%;
+        display: block;
+    }
+}
+
+.course-item-{
+    &angular{
+        background-image:linear-gradient(to right, #FF171B, #FF7779);
+        &:after{
+            background-image:url("../../assets/img/logo-angular.png");
+            background-repeat:no-repeat;
+            background-position: center;
+            background-size:25%;
+        }
+    }
+    &react{
+        background-image:linear-gradient(to right, #048EF2, #40FFFF);
+        &:after{
+            background-image:url("../../assets/img/logo-react.png");
+            background-repeat:no-repeat;
+            background-position: center;
+            background-size:25%; 
+        }
+        
+    }
+    &git{
+        background-image: linear-gradient(to right, #F23D04, #FFD540);
+        &:after{
+            background-image:url("../../assets/img/logo-git.png");
+            background-repeat:no-repeat;
+            background-position: center;
+            background-size:25%;
+        }
+         
+    }
+}

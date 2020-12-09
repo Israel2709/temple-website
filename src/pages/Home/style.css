@@ -1,0 +1,62 @@
+.heading {
+  height: 100vh;
+  background-image: url("../../assets/img/Background-hero.png");
+  background-size: cover;
+}
+
+.about {
+  background-image: -webkit-gradient(linear, left top, right top, from(#4DC8F3), to(#0C2239));
+  background-image: linear-gradient(to right, #4DC8F3, #0C2239);
+}
+
+.statistic-item span {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+div[class^="course-item"] {
+  width: 33.333%;
+}
+
+div[class^="course-item"]:after {
+  content: "";
+  padding-top: 65%;
+  display: block;
+}
+
+.course-item-angular {
+  background-image: -webkit-gradient(linear, left top, right top, from(#FF171B), to(#FF7779));
+  background-image: linear-gradient(to right, #FF171B, #FF7779);
+}
+
+.course-item-angular:after {
+  background-image: url("../../assets/img/logo-angular.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 25%;
+}
+
+.course-item-react {
+  background-image: -webkit-gradient(linear, left top, right top, from(#048EF2), to(#40FFFF));
+  background-image: linear-gradient(to right, #048EF2, #40FFFF);
+}
+
+.course-item-react:after {
+  background-image: url("../../assets/img/logo-react.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 25%;
+}
+
+.course-item-git {
+  background-image: -webkit-gradient(linear, left top, right top, from(#F23D04), to(#FFD540));
+  background-image: linear-gradient(to right, #F23D04, #FFD540);
+}
+
+.course-item-git:after {
+  background-image: url("../../assets/img/logo-git.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 25%;
+}
+/*# sourceMappingURL=style.css.map */
